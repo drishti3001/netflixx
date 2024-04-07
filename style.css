@@ -1,0 +1,342 @@
+.one{
+    height: 600px;
+    width: 100%;
+    display:flex;
+    flex-wrap:wrap;
+    isolation:isolate;
+    background-color: rgb(0, 0, 0);
+}
+body{
+    margin:0;
+    padding:0;
+}
+.one::after{
+    content:'';
+    position: absolute;
+    z-index:-1;
+    inset:0;
+    background-image: url(netflix\ bg.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity:0.5;
+}
+svg{
+    height:200px;
+    width:200px;
+    color:red;
+    fill: currentColor;
+    margin-left: 30px;
+}
+.lang{
+    margin-top:50px;
+    margin-left: 700px;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.783);
+    color: white;
+    border-radius:8%;
+    border: none;
+
+}
+.sign-in{
+    margin-top:50px;
+    margin-left:30px;
+    height: 35px;
+    width: 100px;
+    background-color: red;
+    border: none;
+    transition: background-color 1s;
+    color: white;
+    border-radius: 8%;
+}
+.sign-in:hover{
+    background-color: rgba(255, 0, 0, 0.239);
+}
+h1{
+    margin-left:260px;
+    color: white;
+    font-size:3rem;
+    font-weight: 900;
+}
+h3{
+    margin-left: 490px;
+    color: white;
+    font-size:26px;
+
+}
+h4{
+    margin-left: 390px;
+    color: white;
+    font-size:20px
+}
+.email{
+    margin-left:400px;
+    margin-bottom:200px;
+    height:56px;
+    width:368.8px;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.322);
+    border-width:0.5px;
+    border-color: white;
+    font-size:20px;
+    font-weight: 400;
+}
+.start{
+    height:56px;
+    width:209.2px;
+    background-color:red;
+    color: white;
+    border: none;
+    font-weight: 900px;
+    font-size: 22px;
+}
+.second{
+    height:450px;
+    width:100%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    border:0px;
+    display: flex;
+    flex-wrap:wrap;
+}
+.head{
+    margin-left: 170px;
+    color: white;
+    font-weight:900px;
+    font-size: 3rem;
+    position: absolute;
+    margin-top: 100px;
+}
+.heading{
+    margin-left: 170px;
+    color: white;
+    font-size:25px;
+    margin-bottom:100px;
+    position: absolute;
+    margin-top: 170px;
+}
+.tv{
+    margin-left: 630px;
+    height:450px;
+}
+.video{
+    height:640px;
+    width:436px;
+    margin-left:710px;
+    position: absolute;
+    margin-top:-100px;
+}
+.video2{
+    height:650px;
+    width:220px;
+    position: absolute;
+    margin-left:775px;
+    margin-top:-135px;
+}
+hr{
+    height:8px;
+    background-color:rgba(0, 0, 0, 0.886);
+    margin:0px;
+}
+.three{
+    height: 480px;
+    width:100%;
+    background-color: black;
+    position: relative;
+    border:0px;
+}
+hr{
+    height:8px;
+    background-color:rgba(0, 0, 0, 0.886);
+    margin:0px;
+}
+.x{
+    color: white;
+    position: absolute;
+    margin-left:600px;
+    margin-top:135px;
+    font-size:3rem;
+    font-weight:900px;
+}
+.y{
+    color: white;
+    position:absolute;
+    margin-left: 600px;
+    font-size:1.5rem;
+    font-weight:400px;
+    margin-top:330px;
+}
+.mobile {
+    height: 370px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.four{
+    height: 480px;
+    width:100%;
+    background-color: black;
+    position: relative;
+    border:0px;
+    display: flex;
+    flex-wrap:wrap;
+}
+hr{
+    height:8px;
+    background-color:rgba(0, 0, 0, 0.886);
+    margin:0px;
+}
+.a{
+    margin-left: 170px;
+    color: white;
+    font-weight:900px;
+    font-size: 3rem;
+    position: absolute;
+    margin-top: 130px;
+}
+.b{
+    margin-left: 170px;
+    color: white;
+    font-size:25px;
+    margin-bottom:100px;
+    position: absolute;
+    margin-top: 200px;
+}
+.mac{
+    margin-left: 680px;
+    height:355px;
+    margin-top:80px;
+}
+.five{
+    height: 480px;
+    width:100%;
+    background-color: black;
+    position: relative;
+    border:0px;
+    margin:0;
+}
+hr{
+    height:8px;
+    background-color:rgba(0, 0, 0, 0.886);
+    margin:0px;
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0.203);
+}
+.c{
+    color: white;
+    position: absolute;
+    margin-left:630px;
+    margin-top:135px;
+    font-size:3rem;
+    font-weight:900px;
+}
+.d{
+    color: white;
+    position:absolute;
+    margin-left: 630px;
+    font-size:1.5rem;
+    font-weight:700px;
+    margin-top:280px;
+}
+.child{
+    height: 350px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.six{
+    height:900px;
+    width: 100%;
+    background-color:black;
+    margin: 0px;
+    padding: 0px;
+}
+.f{
+    color: white;
+    margin-left:370px;
+    font-size:3rem;
+    font-weight: 900px;
+    margin-top:0px;
+}
+.r{
+    background-color:rgba(128, 128, 128, 0.196);
+    color:white;
+    margin-left :150px;
+    height: 84px;
+    width: 956.217px;
+    font-size:20px;
+    font-weight: 900px;
+    border: none;
+    box-shadow: 6px 6px rgba(128, 128, 128, 0.297);
+}
+.emaill{
+    height:56px;
+    width:368px;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.13);
+    margin-left:340px;
+    background-color: rgba(128, 128, 128, 0.151);
+    font-size:20px;
+    font-weight: 400;
+    border-width: 0.5px;
+    border-color: white;
+}
+.startt{
+    height:56px;
+    width:209.2px;
+    background-color:red;
+    color: white;
+    border: none;
+    font-weight: 900px;
+    font-size: 22px;
+}
+.p{
+    color: white;
+    margin-top: 40px;
+    margin-left: 320px;
+    font-size:22px;
+    font-weight: 500;
+}
+footer{
+    color:white;
+    background-color: black;
+    height:400px;
+}
+.box1{
+    height: 100px;
+    width: 200px;
+    text-align:left;
+
+}
+.links{
+    margin-top: 50px;
+    display:flex;
+    justify-content: space-evenly;
+}
+footer p{
+    margin-left: 100px;
+    color:white;
+    font-size: 1.2rem;
+}
+footer p a{
+    color:white;
+}
+.links a{
+    color:white;
+}
+.lang select{
+    background-color: rgb(0,0,0);
+    color:white;
+    height:30px;
+    font-size: 100%;
+    width:150px;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 8%;
+    margin-left: 100px;
+    position: relative;
+    z-index: 10;
+}
+.lang{
+    background-color: black;
+    color:white;
+}
